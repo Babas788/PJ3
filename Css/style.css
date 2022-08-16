@@ -1,0 +1,667 @@
+/*Police*/
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap');
+
+/*Généralités*/
+
+* {
+    box-sizing: border-box;
+    font-family: "Raleway";
+}
+
+li {
+    list-style: none;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/*header*/
+
+.entete {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.imagelogo {
+    width: 250px;
+    height: 150px;
+}
+
+nav {
+    display: flex;
+    width: auto;
+    align-items: center;
+    height: 50px;
+    padding-bottom: 0px;
+}
+
+.bouton-navigation {
+    width: 256px;
+    color: black;
+    padding-top: 115px;
+    text-align: center;
+    margin-bottom: 0px;
+    font-weight: 550;
+}
+
+/*hoover*/
+
+.bouton-navigation:hover {
+    border-top: 4px solid #0065FC;
+    color: #0065FC;
+}
+
+/*Slogan*/
+
+.titre {
+    margin-left: 15px;
+}
+
+.barre-de-recherche {
+    display: flex;
+    justify-items: baseline;
+    margin-left: 25px;
+}
+
+/*barre de recherche*/
+
+.iconemap {
+    position: relative;
+    text-align: center;
+    padding-top: 20px;
+    right: -3px;
+    height: 60px;
+    width: 60px;
+    border-radius: 15px 0 0 15px;
+    background: #F2F2F2;
+}
+
+/*bouton barre de recherche*/
+
+.btn1 {
+    margin-left: 4px;
+}
+
+input[type="text"] {
+    height: 60px;
+}
+
+input[type="submit"] {
+    border: none;
+    left: -5px;
+    position: relative;
+    border-radius: 0 15px 15px 0;
+    height: 60px;
+    color: white;
+    background: #0065FC;
+}
+
+.loupe {
+    display: none;
+    position: relative;
+    text-align: center;
+    padding-top: 20px;
+    right: -3px;
+    height: 60px;
+    width: 60px;
+    border-radius: 15px 0 0 15px;
+    background: #0065FC;
+}
+
+
+/*Les filtres*/
+
+.itemfiltres {
+    display: flex;
+    align-items: center;
+}
+
+.ecofamille {
+    display: flex;
+}
+
+.romantique {
+    display: flex;
+}
+
+.titre {
+    margin: 25px 25px 20px 25px;
+}
+
+.filtre {
+    display: flex;
+    margin-left: 50px;
+    border: 4px solid #F2F2F2;
+    border-radius: 20px;
+    width: 200px;
+    height: 45px;
+    align-items: center;
+    text-align: center;
+    padding-left: 20px;
+}
+
+.text {
+    padding-left: 25px;
+}
+
+.filtre:hover {
+    background-color: #0065FC;
+    color: #F2F2F2;
+}
+
+.icone {
+    position: absolute;
+    border-radius: 25px;
+    width: 50px;
+    height: 50px;
+    color: #0065FC;
+    background-color: #DEEBFF;
+    text-align: center;
+    margin: 50px 0px 50px -30px;
+    padding: 15px;
+}
+
+/*Texte d'information*/
+
+.information {
+    display: flex;
+    align-items: baseline;
+    padding-left: 2%;
+}
+
+.fa-info {
+    color: #0065FC;
+    border: solid 4px #F2F2F2;
+    border-radius: 25px;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+}
+
+/*logement*/
+
+.logement {
+    width: 70%;
+    background: #F2F2F2;
+    padding-left: 2%;
+    height: 740px;
+    border: 1px solid #F2F2F2;
+    border-radius: 25px;
+}
+
+/*cartes*/
+
+.carte {
+    margin-left: 1%;
+    margin-bottom: 3%;
+    margin-right: 1%;
+    display: flex;
+    padding: 1%;
+    flex-direction: column;
+    border: 2px;
+    border-radius: 35px;
+    width: 100%;
+    height: 280px;
+    background: white;
+}
+
+.hotel1 {
+    display: flex;
+}
+
+/*photo des cartes logements*/
+
+.photo {
+    border-top: 1px;
+    border-radius: 25px 25px 0px 0px;
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.corps-de-carte {
+    display: flex;
+    flex-direction: column;
+}
+
+/*Titre dans les carte*/
+
+.titre-carte {
+    color: black;
+}
+
+.card-excerpt {
+    color: black;
+}
+
+/*aside*/
+
+.proposition {
+    width: 30%;
+}
+
+.godtiers {
+    margin-right: 5%;
+    margin-left: 10%;
+    width: 80%;
+    height: 740px;
+    border: 1px solid #F2F2F2;
+    border-radius: 25px;
+    background-color: #F2F2F2;
+}
+
+.populaire {
+    border-radius: 25px;
+    margin: 5%;
+    width: 90%;
+    height: 200px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+.image {
+    width: 50%;
+}
+
+.tierlist {
+    width: 100%;
+    height: 95%;
+    border: solid 0.1px white;
+    border-radius: 25px 0px 0px 25px;
+    margin: 3%;
+    margin-bottom: 3%;
+    object-fit: cover;
+}
+
+.section-carte {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pop {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    align-items: baseline;
+}
+
+.etoiles4 {
+    display: flex;
+    color: grey;
+    justify-items: flex-start;
+    align-items: baseline;
+}
+
+.card-excerpt {
+    margin-top: -20px;
+}
+
+.etoilesbleues {
+    color: #0065FC;
+}
+
+.carte2 {
+    width: 50%;
+    padding-left: 10px;
+    margin-left: 15px;
+}
+
+/*activités*/
+
+.activités {
+    height: 600px;
+}
+
+.activitycard {
+    display: flex;
+    justify-content: space-around;
+}
+
+.colone2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 15px;
+    width: 20%;
+}
+
+/*Grande cartes*/
+
+.grandecarte {
+    box-shadow: 10px 10px 10px #F2F2F2;
+    border-radius: 25px;
+    width: 20%;
+    height: 550px;
+    margin-left: 30px;
+}
+
+.tall-img {
+    border-radius: 25px 25px 0px 0px;
+    height: 500px;
+    width: 100%;
+    margin: 0px 0px 20px 0px;
+    object-fit: cover;
+}
+
+.titre-activités {
+    color: black;
+    margin-left: 20px;
+
+}
+
+/*carte de moyenne taille*/
+
+.moyennecarte {
+    border: 1px solid white;
+    box-shadow: 10px 5px 5px #F2F2F2;
+    border-radius: 25px;
+    width: 100%;
+    height: 280px;
+}
+
+.moy-img {
+    border-radius: 25px 25px 0px 0px;
+    height: 230px;
+    width: 100%;
+    object-fit: cover;
+}
+
+/*petite carte*/
+
+.petite-img {
+    height: 130px;
+    width: 100%;
+    border-radius: 25px 25px 0px 0px;
+    object-fit: cover;
+}
+
+.petitecarte {
+    box-shadow: 10px 5px 5px #F2F2F2;
+    border-radius: 25px;
+    width: 100%;
+    height: 200px;
+    margin-bottom: 70px;
+}
+
+.titre-activités-petit {
+    justify-content: center;
+}
+
+.petitecarte2 {
+    box-shadow: 10px 5px 5px #F2F2F2;
+    border-radius: 25px;
+    width: 100%;
+    height: 200px;
+    margin-top: 70px;
+}
+
+/*footer*/
+
+footer {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    height: 250px;
+    background-color: #F2F2F2;
+}
+
+.noshebergements {
+    margin-left: -150px;
+}
+
+.assistance {
+    margin-right: 300px;
+}
+
+/*version mobile - Tablette*/
+
+@media screen and (max-width: 768px) {
+
+    /*head*/
+
+    .entete {
+        flex-direction: column;
+    }
+
+    nav {
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+        align-items: center;
+        height: 50px;
+        padding-bottom: 0px;
+    }
+
+    .bouton-navigation {
+        width: 100%;
+        color: black;
+        text-align: center;
+        margin-bottom: 0px;
+        font-weight: 550;
+        padding-top: 0px;
+        padding-bottom: 15px;
+    }
+
+    .bouton-navigation:hover {
+        border: none;
+        border-bottom: #0065FC 3px solid;
+        width: 100%;
+    }
+
+    .navbar1 {
+        width: 50%;
+        margin-bottom: 20px;
+    }
+
+    /*packshot*/
+
+    /*titre*/
+
+    .titre {
+        flex-direction: column;
+        text-align: center;
+        text-justify: auto;
+    }
+
+    /*barre de recherche*/
+
+    .barre-de-recherche {
+        justify-content: center;
+    }
+
+    input[type="submit"] {
+        display: none;
+    }
+
+    .loupe {
+        display: flex;
+        justify-content: center;
+        left: -5px;
+        position: relative;
+        border-radius: 0 15px 15px 0;
+        height: 60px;
+        color: white;
+        background: #0065FC;
+    }
+
+    .btn1 {
+        display: flex;
+        flex-direction: row;
+    }
+
+    /*filtres*/
+
+    .itemfiltres {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .ecofamille {
+        display: flex;
+        width: 100%;
+    }
+
+    .romantique {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .filtre {
+        margin-bottom: 10px;
+    }
+
+    /*card*/
+
+    main {
+        flex-direction: column;
+    }
+
+    /*aside*/
+
+    .proposition {
+        width: 100%;
+    }
+
+    .section-carte {
+        flex-direction: column-reverse;
+        margin-bottom: 200px;
+    }
+
+    .godtiers {
+        border-radius: 0px;
+        width: 100%;
+        margin-left: auto;
+        height: auto;
+    }
+
+    .popularity {
+        display: flex;
+        justify-content: center;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .populaire {
+        width: 80%;
+        height: auto;
+        align-items: center;
+        margin-top: auto;
+    }
+
+    .image {
+        width: 50%;
+    }
+
+    .tierlist {
+        height: 155px;
+    }
+
+
+    /*logement*/
+
+    .logement {
+        flex-direction: column;
+        width: auto;
+        background-color: white;
+        border: none;
+    }
+
+    .hotel1 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .carte {
+        width: 80%;
+        box-shadow: 10px 5px 5px 10px #F2F2F2;
+        flex-direction: column;
+        height: 270px;
+    }
+
+    .corps-de-carte {
+        height: 50px;
+    }
+
+    .card-excerpt {
+        height: 20px;
+    }
+
+    .photo {
+        width: 100%;
+    }
+
+    /*activités*/
+
+    .activités {
+        height: auto;
+        margin-top: 1180px;
+    }
+
+    .activitycard {
+        flex-direction: column;
+        margin: auto;
+        align-items: center;
+    }
+
+    .principale {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .colone1 {
+        width: 80%;
+    }
+
+    .colone2 {
+        width: 80%;
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
+
+    /*cartes activités*/
+
+    .grandecarte {
+        width: 80%;
+        height: 270px;
+        margin-top: 20px;
+        margin-left: 3px;
+    }
+
+    .petitecarte {
+        height: 270px;
+        margin-bottom: 20px;
+    }
+
+    .petitecarte2 {
+        margin-top: 20px;
+        height: 270px;
+    }
+
+    .tall-img {
+        height: 200px;
+        width: 100%;
+    }
+
+    .petite-img {
+        height: 200px;
+    }
+
+    /*footer*/
+
+    footer {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .noshebergements {
+        margin-left: 0%;
+    }
+}
