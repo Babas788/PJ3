@@ -134,7 +134,7 @@ input[type="submit"] {
 
 .romantique {
     display: flex;
-    width: 410px;
+    width: 400px;
     justify-content: space-around;
 }
 
@@ -145,7 +145,9 @@ input[type="submit"] {
     border: 4px solid #F2F2F2;
     border-radius: 15px;
 }
-
+.text{
+    margin: 10px;
+}
 
 .icone {
     display: flex;
@@ -153,6 +155,7 @@ input[type="submit"] {
     align-items: center;
     color: #0065FC;
     background-color: #DEEBFF;
+    margin: -10px;
     height: 40px;
     width: 40px;
     border-radius: 25px;
@@ -186,13 +189,12 @@ input[type="submit"] {
 
 .section-carte {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .logement {
     width: 70%;
     background: #F2F2F2;
-    padding-left: 2%;
     height: 740px;
     border: 1px solid #F2F2F2;
     border-radius: 25px;
@@ -205,13 +207,10 @@ input[type="submit"] {
 }
 
 .carte {
-    margin-left: 1%;
-    margin-bottom: 3%;
-    margin-right: 1%;
     display: flex;
-    padding: 1%;
     flex-direction: column;
-    border: 2px;
+    margin: 10px;
+    padding: 10px;
     border-radius: 35px;
     width: 100%;
     height: 280px;
@@ -221,7 +220,6 @@ input[type="submit"] {
 /*photo des cartes logements*/
 
 .photo {
-    border-top: 1px;
     border-radius: 25px 25px 0px 0px;
     width: 100%;
     height: 150px;
@@ -250,11 +248,11 @@ input[type="submit"] {
 }
 
 .bloc-popularite {
-    margin-right: 5%;
-    margin-left: 10%;
-    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0px 30px 0px 30px;
     height: 740px;
-    border: 1px solid #F2F2F2;
     border-radius: 25px;
     background-color: #F2F2F2;
 }
@@ -271,12 +269,10 @@ input[type="submit"] {
 
 .populaire {
     border-radius: 25px;
-    margin: 5%;
-    width: 90%;
-    height: 200px;
+    margin: 0px 10px 0px 10px;
     background-color: white;
     display: flex;
-    flex-direction: row;
+    justify-content: space-around;
 }
 
 .image {
@@ -285,33 +281,20 @@ input[type="submit"] {
 
 .carte2 {
     width: 50%;
-    height: 100%;
-    padding-left: 10px;
-    margin-left: 15px;
 }
 
 .tierlist {
     width: 100%;
-    height: 97%;
+    height: 150px;
+    margin: 3px;
     border: solid 0.1px white;
     border-radius: 25px 0px 0px 25px;
-    margin: 3%;
-    margin-bottom: 3%;
     object-fit: cover;
 }
 
 .etoiles4 {
     display: flex;
     color: grey;
-    justify-items: flex-start;
-    align-items: baseline;
-}
-
-.card-excerpt {
-    margin-top: -20px;
-}
-.textcarte2{
-    margin-top: 50px;
 }
 
 .etoilesbleues {
