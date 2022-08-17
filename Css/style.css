@@ -284,10 +284,9 @@ input[type="submit"] {
 }
 
 .tierlist {
-    width: 100%;
+    width: 150px;
     height: 150px;
     margin: 3px;
-    border: solid 0.1px white;
     border-radius: 25px 0px 0px 25px;
     object-fit: cover;
 }
