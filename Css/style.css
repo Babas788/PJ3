@@ -21,38 +21,31 @@ a {
 
 /*****************header****************/
 
-.entete {
+.entete_imagelogo{
     display: flex;
     justify-content: space-between;
     align-items: center;
 
 }
 
-.imagelogo {
-    width: 250px;
-    height: 150px;
-}
-
-nav {
+.choix{ 
     display: flex;
-    width: auto;
+    justify-content: space-around;
     align-items: center;
-    height: 50px;
-    padding-bottom: 0px;
 }
-
-.bouton-navigation {
-    width: 256px;
-    color: black;
-    padding-top: 115px;
-    text-align: center;
-    margin-bottom: 0px;
-    font-weight: 550;
+.navigation{
+    display: flex;
+    justify-content: space-around;
+    width: 200px;
+}
+.btn_navigation{
+    padding: 56px;
+    display: flex;
 }
 
 /*hoover*/
 
-.bouton-navigation:hover {
+.btn_navigation:hover {
     border-top: 4px solid #0065FC;
     color: #0065FC;
 }
@@ -457,38 +450,18 @@ footer {
 
     /*head*/
 
-    .entete {
+    .entete_imagelogo{
         flex-direction: column;
     }
-
-    nav {
-        display: flex;
-        width: 100%;
-        justify-content: space-around;
-        align-items: center;
-        height: 50px;
-        padding-bottom: 0px;
-    }
-
-    .bouton-navigation {
-        width: 100%;
+    .btn_navigation {
         color: black;
-        text-align: center;
-        margin-bottom: 0px;
         font-weight: 550;
-        padding-top: 0px;
         padding-bottom: 15px;
     }
 
-    .bouton-navigation:hover {
+    .btn_navigation:hover {
         border: none;
         border-bottom: #0065FC 3px solid;
-        width: 100%;
-    }
-
-    .navbar1 {
-        width: 50%;
-        margin-bottom: 20px;
     }
 
     /*packshot*/
