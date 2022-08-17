@@ -493,25 +493,29 @@ footer {
 
     /*filtres*/
 
-    .itemfiltres {
+    .itemfiltres{
+        display: flex;
         flex-direction: column;
-        justify-content: flex-start;
-        align-items: flex-start;
+    }
+    .bloc_filtres{
+        display: flex;
+        flex-direction: column;
     }
 
     .ecofamille {
         display: flex;
-        width: 100%;
     }
 
     .romantique {
         display: flex;
         flex-direction: column;
+        width: 150px;
+        margin-left: 35px;
     }
-
-    .filtre {
+    .filtre{
         margin-bottom: 10px;
     }
+
 
     /*card*/
 
