@@ -347,7 +347,8 @@ input[type="submit"] {
 }
 
 .grandecarte {
-    box-shadow: 10px 10px 10px #F2F2F2;
+    box-shadow: 5px 5px 5px 5px #F2F2F2;
+    border: 1px solid #F2F2F2;
     border-radius: 25px;
     width: 20%;
     height: 550px;
@@ -382,8 +383,8 @@ input[type="submit"] {
 /*carte de moyenne taille*/
 
 .moyennecarte {
-    border: 1px solid white;
-    box-shadow: 10px 5px 5px #F2F2F2;
+    box-shadow: 5px 5px 5px 5px #F2F2F2;
+    border: 1px solid #F2F2F2;
     border-radius: 25px;
     width: 100%;
     height: 280px;
@@ -406,7 +407,8 @@ input[type="submit"] {
 }
 
 .petitecarte {
-    box-shadow: 10px 5px 5px #F2F2F2;
+    box-shadow: 5px 5px 5px 5px #F2F2F2;
+    border: 1px solid #F2F2F2;
     border-radius: 25px;
     width: 100%;
     height: 200px;
@@ -418,11 +420,17 @@ input[type="submit"] {
 }
 
 .petitecarte2 {
-    box-shadow: 10px 5px 5px #F2F2F2;
+    box-shadow: 5px 5px 5px 5px #F2F2F2;
+    border: 1px solid #F2F2F2;
     border-radius: 25px;
     width: 100%;
     height: 200px;
     margin-top: 70px;
+}
+
+.activités h4{
+    margin-left: 20px;
+    justify-items: center;
 }
 
 /*footer*/
@@ -604,7 +612,8 @@ footer {
 
     .carte {
         width: 80%;
-        box-shadow: 10px 5px 5px 10px #F2F2F2;
+        box-shadow: 5px 5px 5px 5px #F2F2F2;
+    border: 1px solid #F2F2F2;
         flex-direction: column;
         height: 270px;
     }
@@ -625,7 +634,7 @@ footer {
 
     .activités {
         height: auto;
-        margin-top: 1180px;
+        margin-top: 1100px;
     }
 
     .activitycard {
