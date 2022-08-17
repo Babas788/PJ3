@@ -274,17 +274,8 @@ input[type="submit"] {
     display: flex;
     justify-content: space-around;
 }
-
-.image {
-    width: 40%;
-}
-
-.carte2 {
-    width: 50%;
-}
-
 .tierlist {
-    width: 150px;
+    width: 200px;
     height: 150px;
     margin: 3px;
     border-radius: 25px 0px 0px 25px;
