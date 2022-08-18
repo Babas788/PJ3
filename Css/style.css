@@ -270,22 +270,33 @@ input[type="submit"] {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    align-items: center;
 }
 
 .carte_populaire{
     display: flex;
+    width: 90%;
+    justify-content: space-between;
     background-color: white;
     border: 1px solid black;
+    border-radius: 25px;
 }
 
 /*Titre*/
 
 .photo_populaire{
-    width: 150px;
+    border: 1px;
+    border-radius: 25px 0px 0px 25px;
+    width: 35%;
     height: 150px;
+    margin: 3px;
+    object-fit: cover;
 }
 
-
+.corps_populaire{
+    border: solid 1px blue;
+    align-items: center;
+}
 
 
 .etoiles4 {
