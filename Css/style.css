@@ -122,6 +122,7 @@ input[type="submit"] {
 .titre_filtre {
     margin: 25px 25px 20px 25px;
 }
+
 .bloc_filtres{
     display: flex;
     justify-content: space-around;
@@ -246,25 +247,10 @@ input[type="submit"] {
 
 .proposition {
     width: 30%;
-}
-
-.bloc-popularite {
     display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    margin: 0px 30px 0px 30px;
-    height: 740px;
-    border-radius: 25px;
-    background-color: #F2F2F2;
+    flex-direction: column; 
 }
 
-/*Titre*/
-
-.carte2{
-    display: flex;
-    flex-direction: column;
-    text-align: flex-start;
-}
 .pop {
     display: flex;
     justify-content: space-between;
@@ -272,20 +258,35 @@ input[type="submit"] {
     align-items: baseline;
 }
 
-.populaire {
+.bloc-popularite {
+    margin: 0px 30px 0px 30px;
+    height: 740px;
     border-radius: 25px;
-    margin: 0px 10px 0px 10px;
-    background-color: white;
+    background-color: #F2F2F2;
+}
+.popularity{
+    border: 1px red solid;
+    height: 600px;
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
 }
-.tierlist {
-    width: 45%;
-    height: 150px;
-    margin: 3px;
-    border-radius: 25px 0px 0px 25px;
-    object-fit: cover;
+
+.carte_populaire{
+    display: flex;
+    background-color: white;
+    border: 1px solid black;
 }
+
+/*Titre*/
+
+.photo_populaire{
+    width: 150px;
+    height: 150px;
+}
+
+
+
 
 .etoiles4 {
     display: flex;
@@ -532,6 +533,9 @@ footer {
         height: auto;
         align-items: center;
         margin-top: auto;
+    }
+    .carte2 h3{
+      width: 200px;
     }
 
     .image {
