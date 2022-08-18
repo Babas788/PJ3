@@ -518,14 +518,15 @@ footer {
     .proposition{
         width: 100%;
     }
+
     .bloc-popularite{
         border-radius: 0px;
     }
+
     .section-carte {
         flex-direction: column-reverse;
         margin-bottom: 200px;
     }
-
 
     .popularity {
         display: flex;
@@ -534,8 +535,6 @@ footer {
         margin-top: 15px;
         margin-bottom: 15px;
     }
-
-
 
     /*logement*/
 
@@ -554,7 +553,7 @@ footer {
     .carte {
         width: 80%;
         box-shadow: 5px 5px 5px 5px #F2F2F2;
-    border: 1px solid #F2F2F2;
+        border: 1px solid #F2F2F2;
         flex-direction: column;
         height: 270px;
     }
