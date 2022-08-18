@@ -535,6 +535,12 @@ footer {
         margin-top: 15px;
         margin-bottom: 15px;
     }
+    .photo_populaire{
+        width: 35%;
+    }
+    .corps_populaire{
+        width: 300px;
+    }
 
     /*logement*/
 
