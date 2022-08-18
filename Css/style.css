@@ -515,47 +515,26 @@ footer {
     }
 
     /*aside*/
-
-    .proposition {
+    .proposition{
         width: 100%;
     }
-
+    .bloc-popularite{
+        border-radius: 0px;
+    }
     .section-carte {
         flex-direction: column-reverse;
         margin-bottom: 200px;
     }
 
-    .bloc-popularite {
-        border-radius: 0px;
-        width: 100%;
-        margin-left: auto;
-        height: auto;
-    }
 
     .popularity {
         display: flex;
-        justify-content: center;
+        align-items: center;
+        justify-content: space-around;
         margin-top: 15px;
         margin-bottom: 15px;
     }
 
-    .populaire {
-        width: 80%;
-        height: auto;
-        align-items: center;
-        margin-top: auto;
-    }
-    .carte2 h3{
-      width: 200px;
-    }
-
-    .image {
-        width: 50%;
-    }
-
-    .tierlist {
-        height: 155px;
-    }
 
 
     /*logement*/
