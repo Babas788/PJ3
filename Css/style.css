@@ -265,7 +265,6 @@ input[type="submit"] {
     background-color: #F2F2F2;
 }
 .popularity{
-    border: 1px red solid;
     height: 600px;
     display: flex;
     flex-direction: column;
@@ -278,7 +277,6 @@ input[type="submit"] {
     width: 90%;
     justify-content: space-between;
     background-color: white;
-    border: 1px solid black;
     border-radius: 25px;
 }
 
@@ -294,7 +292,6 @@ input[type="submit"] {
 }
 
 .corps_populaire{
-    border: solid 1px blue;
     align-items: center;
 }
 
@@ -312,70 +309,58 @@ input[type="submit"] {
 /********************activités*************************/
 
 /*bloc carte*/
-.activités {
-    height: 600px;
-}
 
-.activitycard {
+.activite_carte {
     display: flex;
     justify-content: space-around;
-}
-
-.grandecarte {
-    box-shadow: 5px 5px 5px 5px #F2F2F2;
-    border: 1px solid #F2F2F2;
-    border-radius: 25px;
-    width: 20%;
-    height: 550px;
-    margin-left: 30px;
 }
 
 .colone2 {
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
     align-items: center;
-    margin-left: 15px;
-    width: 20%;
 }
 
 /*Grande cartes*/
 
+.grande_carte {
+    box-shadow: 5px 5px 5px 5px #F2F2F2;
+    border: 1px solid #F2F2F2;
+    border-radius: 25px;
+    width: 20%;
+    margin-right: 10px;
+}
 
-.tall-img {
+.grande_photo {
     border-radius: 25px 25px 0px 0px;
     height: 500px;
     width: 100%;
-    margin: 0px 0px 20px 0px;
     object-fit: cover;
 }
 
-.titre-activités {
-    color: black;
-    margin-left: 20px;
-
-}
 
 /*carte de moyenne taille*/
 
-.moyennecarte {
+.moyenne_photo {
+    border-radius: 25px 25px 0px 0px;
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.moyenne_carte {
+    text-align: start;
     box-shadow: 5px 5px 5px 5px #F2F2F2;
     border: 1px solid #F2F2F2;
     border-radius: 25px;
     width: 100%;
-    height: 280px;
-}
-
-.moy-img {
-    border-radius: 25px 25px 0px 0px;
-    height: 230px;
-    width: 100%;
-    object-fit: cover;
 }
 
 /*petite carte*/
 
 .petite-img {
-    height: 130px;
+    height: 150px;
     width: 100%;
     border-radius: 25px 25px 0px 0px;
     object-fit: cover;
@@ -385,27 +370,8 @@ input[type="submit"] {
     box-shadow: 5px 5px 5px 5px #F2F2F2;
     border: 1px solid #F2F2F2;
     border-radius: 25px;
+    text-align: start;
     width: 100%;
-    height: 200px;
-    margin-bottom: 70px;
-}
-
-.titre-activités-petit {
-    justify-content: center;
-}
-
-.petitecarte2 {
-    box-shadow: 5px 5px 5px 5px #F2F2F2;
-    border: 1px solid #F2F2F2;
-    border-radius: 25px;
-    width: 100%;
-    height: 200px;
-    margin-top: 70px;
-}
-
-.activités h4{
-    margin-left: 20px;
-    justify-items: center;
 }
 
 /*footer*/
@@ -561,75 +527,53 @@ footer {
         box-shadow: 5px 5px 5px 5px #F2F2F2;
         border: 1px solid #F2F2F2;
         flex-direction: column;
-        height: 270px;
     }
-
-    .corps-de-carte {
-        height: 50px;
-    }
-
-    .card-excerpt {
-        height: 20px;
-    }
-
-    .photo {
-        width: 100%;
-    }
+   .corps-de-carte{
+    height: 100px;
+    justify-content: flex-start;
+   }
+   .titre-carte{
+    height: 30px;
+   }
 
     /*activités*/
 
-    .activités {
+    .activites {
         height: auto;
-        margin-top: 1100px;
+        margin-top: 1150px;
     }
 
-    .activitycard {
+    .activite_carte {
         flex-direction: column;
-        margin: auto;
         align-items: center;
-    }
-
-    .principale {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .colone1 {
-        width: 80%;
     }
 
     .colone2 {
         width: 80%;
-        margin-top: 20px;
-        margin-bottom: 50px;
     }
 
     /*cartes activités*/
 
-    .grandecarte {
+    .grande_carte {
         width: 80%;
-        height: 270px;
-        margin-top: 20px;
-        margin-left: 3px;
+        margin-top: 15px;
+        margin-bottom: 15px;
     }
-
+   
+    .grande_photo {
+        height: 175px;
+    }
+    .moyenne_carte{
+        margin-bottom: 15px;
+    }
+    .moyenne_photo{
+        height: 175px;
+    }
     .petitecarte {
-        height: 270px;
-        margin-bottom: 20px;
+        margin-bottom: 15px;
     }
-
-    .petitecarte2 {
-        margin-top: 20px;
-        height: 270px;
-    }
-
-    .tall-img {
-        height: 200px;
-        width: 100%;
-    }
-
     .petite-img {
-        height: 200px;
+        height: 175px;
     }
 
     /*footer*/
