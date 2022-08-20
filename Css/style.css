@@ -292,7 +292,10 @@ input[type="submit"] {
 }
 
 .corps_populaire{
-    align-items: center;
+    display: flex;
+    width: 60%;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 
@@ -400,11 +403,23 @@ footer {
 
     .entete_imagelogo{
         flex-direction: column;
+        justify-content: space-between;
+    }
+    .choix{
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+    }
+    .navigation{
+        width: 50%;
     }
     .btn_navigation {
+        display: flex;
+        justify-content: center;
         color: black;
         font-weight: 550;
         padding-bottom: 15px;
+        width: 100%;
     }
 
     .btn_navigation:hover {
@@ -483,6 +498,7 @@ footer {
     /*aside*/
     .proposition{
         width: 100%;
+        background-color: #F2F2F2;
     }
 
     .bloc-popularite{
@@ -500,12 +516,6 @@ footer {
         justify-content: space-around;
         margin-top: 15px;
         margin-bottom: 15px;
-    }
-    .photo_populaire{
-        width: 35%;
-    }
-    .corps_populaire{
-        width: 300px;
     }
 
     /*logement*/
