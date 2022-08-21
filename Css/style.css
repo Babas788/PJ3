@@ -18,6 +18,11 @@ a {
     text-decoration: none;
     color: black;
 }
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
 
 /*****************header****************/
 
@@ -143,12 +148,12 @@ input[type="submit"] {
 .filtre {
     display: flex;
     align-items: center;
+    text-align: center;
     border: 4px solid #F2F2F2;
     border-radius: 15px;
+    width: 180px;
 }
-.text{
-   margin: 5px;
-}
+
 
 .icone {
     display: flex;
@@ -157,8 +162,8 @@ input[type="submit"] {
     color: #0065FC;
     background-color: #DEEBFF;
     margin-left: -10px;
-    height: 40px;
-    width: 40px;
+    height: 45px;
+    width: 45px;
     border-radius: 25px;
   
 }
@@ -199,6 +204,7 @@ input[type="submit"] {
     height: 740px;
     border: 1px solid #F2F2F2;
     border-radius: 25px;
+    margin-left: 20px;
 }
 
 /*cartes-logement*/
@@ -482,6 +488,10 @@ footer {
     .bloc_filtres{
         display: flex;
         flex-direction: column;
+    }
+
+    .filtre {
+        width: 150px;
     }
 
     .ecofamille {
