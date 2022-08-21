@@ -230,6 +230,7 @@ input[type="submit"] {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    font-size: 14px;
 }
 
 /*Titre dans les carte*/
@@ -295,8 +296,6 @@ input[type="submit"] {
     width: 60%;
     flex-direction: column;
     justify-content: space-around;
-}
-.carte_populaire .corps_populaire{
     height: 170px;
     font-size: 14px;
 }
@@ -319,6 +318,9 @@ input[type="submit"] {
 
 /*bloc carte*/
 
+.activites h3{
+    margin-bottom: 30px;
+}
 .activite_carte {
     display: flex;
     justify-content: space-around;
@@ -392,6 +394,7 @@ footer {
     justify-content: space-between;
     height: 250px;
     background-color: #F2F2F2;
+    border: 1px solid black;
 }
 
 .noshebergements {
