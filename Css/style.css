@@ -501,16 +501,17 @@ footer {
 
     .filtre {
         width: 170px;
+        margin-left: 20px;
     }
 
     .ecofamille {
         display: flex;
+        justify-content: space-between;
     }
 
     .romantique {
         display: flex;
         flex-direction: column;
-        margin-left: 12px;
     }
     .filtre{
         margin-bottom: 10px;
