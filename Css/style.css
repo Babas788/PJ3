@@ -408,12 +408,15 @@ footer {
     background-color: #F2F2F2;
 }
 
+.propos{
+    width: 33%;
+}
 .noshebergements {
-    margin-left: -150px;
+    width: 33%;
 }
 
 .assistance {
-    margin-right: 300px;
+    width: 33%;
 }
 
 /*version mobile - Tablette*/
@@ -496,7 +499,7 @@ footer {
     }
 
     .filtre {
-        width: 150px;
+        width: 170px;
     }
 
     .ecofamille {
@@ -506,8 +509,7 @@ footer {
     .romantique {
         display: flex;
         flex-direction: column;
-        width: 150px;
-        margin-left: 35px;
+        margin-left: 12px;
     }
     .filtre{
         margin-bottom: 10px;
