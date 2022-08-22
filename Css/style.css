@@ -184,7 +184,7 @@ input[type="submit"] {
 .information {
     display: flex;
     align-items: baseline;
-    padding-left: 2%;
+    margin-left: 20px;
 }
 
 .fa-info {
@@ -580,7 +580,7 @@ footer {
 
     .activites {
         height: auto;
-        margin-top: 1150px;
+        margin-top: 850px;
     }
 
     .activite_carte {
