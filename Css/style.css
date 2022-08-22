@@ -60,8 +60,8 @@ main{
 
 /****************Slogan***************/
 
-.titre {
-    margin-left: 15px;
+.titre_packshot{
+    margin-left: 20px;
 }
 
 /*********barre de recherche********/
@@ -69,7 +69,7 @@ main{
 .barre-de-recherche {
     display: flex;
     justify-items: baseline;
-    margin-left: 25px;
+    margin-left: 20px;
 }
 
 .iconemap {
@@ -411,6 +411,7 @@ footer {
 .propos{
     width: 33%;
 }
+
 .noshebergements {
     width: 33%;
 }
