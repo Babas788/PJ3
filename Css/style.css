@@ -156,6 +156,7 @@ input[type="submit"] {
     justify-content: space-around;
     width: 50%;
 }
+
 .icone {
     padding: 14px;
     color: #0065FC;
@@ -504,15 +505,18 @@ footer {
     }
     .partie{
         display: flex;
-        width: 85%;
+        width: 95%;
         justify-content: space-between;
     }
     .play{
         height: 115px;
-        width: 85%;
+        width: 95%;
         display: flex;
         justify-content: space-between;
         flex-direction: column;
+    }
+    .personne{
+        width: 170px;
     }
 
     /*card*/
@@ -564,10 +568,11 @@ footer {
 
     .carte {
         width: 80%;
-        box-shadow: 5px 5px 5px 5px #F2F2F2;
+        box-shadow: 5px 5px 15px 2px #F2F2F2;
         border: 1px solid #F2F2F2;
         flex-direction: column;
     }
+
     .corps-de-carte{
     height: 110px;
     justify-items: flex-start;
