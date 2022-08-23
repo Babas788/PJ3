@@ -30,23 +30,24 @@ main{
     display: flex;
     justify-content: space-between;
     align-items: center;
-
+    height: 115px;
 }
 
 .choix{ 
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    width: 450px;
+    height: 115px;
 }
 .navigation{
     display: flex;
-    justify-content: space-around;
-    width: 200px;
+    width: 100%;
 }
 .btn_navigation{
-    padding: 56px;
     display: flex;
     font-weight: 450;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
 }
 
 /*hoover*/
@@ -120,7 +121,6 @@ input[type="submit"] {
 
 .itemfiltres {
     display: flex;
-    justify-items: center;
     align-items: center;
 }
 
@@ -131,45 +131,34 @@ input[type="submit"] {
 .bloc_filtres{
     display: flex;
     justify-content: space-around;
+    width: 60%;
 }
 
-.ecofamille {
-    display: flex;
-    justify-content: space-around;
-    width: 390px;
-}
-
-.romantique {
-    display: flex;
-    width: 400px;
-    justify-content: space-around;
-}
 
 .filtre {
     display: flex;
+    justify-content: space-between;
     align-items: center;
     border: 4px solid #F2F2F2;
     border-radius: 25px;
     width: 180px;
 }
 
-.text{
+.filtre span{
+    width: 100%;
     display: flex;
     justify-content: center;
+
 }
 
-
 .icone {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    padding: 10px;
     color: #0065FC;
     background-color: #DEEBFF;
     margin-left: -10px;
-    height: 35px;
-    width: 35px;
+    height: 40px;
+    width: 40px;
     border-radius: 25px;
-  
 }
 
 .filtre:hover {
@@ -209,20 +198,25 @@ input[type="submit"] {
     border: 1px solid #F2F2F2;
     border-radius: 25px;
     margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 /*cartes-logement*/
 
 .hotel1 {
+    width: 100%;
     display: flex;
+    justify-content: space-around;
+   
 }
 
 .carte {
-    display: flex;
     flex-direction: column;
+    padding: 3px;
     margin: 10px;
-    padding: 10px;
-    border-radius: 35px;
+    border-radius: 25px;
     width: 100%;
     background: white;
 }
@@ -411,14 +405,6 @@ footer {
     width: 33%;
 }
 
-.noshebergements {
-    width: 33%;
-}
-
-.assistance {
-    width: 33%;
-}
-
 /*version mobile - Tablette*/
 
 @media screen and (max-width: 768px) {
@@ -427,25 +413,25 @@ footer {
 
     .entete_imagelogo{
         flex-direction: column;
-        justify-content: space-between;
+        height: 175px;
     }
-
-    .choix{
+    nav {
         display: flex;
-        justify-content: space-around;
+        height: 40px;
+        width: 115%;
+    }
+    .choix{
+        flex-wrap: nowrap;
+        flex-basis: 100%;
+        height: 20px;
+    }
+    .navigation{
+        height: 20px;
         width: 100%;
     }
 
-    .navigation{
-        width: 50%;
-    }
-
     .btn_navigation {
-        display: flex;
-        justify-content: center;
-        color: black;
-        font-weight: 550;
-        padding-bottom: 15px;
+        border: red 1px yellow;
         width: 100%;
     }
 
@@ -472,14 +458,15 @@ footer {
 
     input[type="submit"] {
         display: none;
+        border-left: none;
     }
 
     .loupe {
         display: flex;
         justify-content: center;
-        left: -5px;
+        left: -7px;
         position: relative;
-        border-radius: 0 15px 15px 0;
+        border-radius: 15px 15px 15px 15px;
         height: 60px;
         color: white;
         background: #0065FC;
@@ -494,29 +481,16 @@ footer {
 
     .itemfiltres{
         display: flex;
+        align-items: flex-start;
         flex-direction: column;
+        border: 1px solid black;
     }
     .bloc_filtres{
-        display: flex;
-        flex-direction: column;
+        width: 100%;
+        border: 1px solid blue;
+        flex-wrap: wrap;
     }
 
-    .filtre {
-        margin-left: 20px;
-    }
-
-    .ecofamille {
-        display: flex;
-        justify-content: space-between;
-    }
-
-    .romantique {
-        display: flex;
-        flex-direction: column;
-    }
-    .filtre{
-        margin-bottom: 10px;
-    }
 
 
     /*card*/
@@ -558,6 +532,7 @@ footer {
         width: auto;
         background-color: white;
         border: none;
+        margin-top: 500px;
     }
 
     .hotel1 {
@@ -583,7 +558,7 @@ footer {
 
     .activites {
         height: auto;
-        margin-top: 850px;
+        margin-top: 300px
     }
 
     .activite_carte {
@@ -624,9 +599,5 @@ footer {
     footer {
         flex-direction: column;
         height: auto;
-    }
-
-    .noshebergements {
-        margin-left: 0%;
     }
 }
