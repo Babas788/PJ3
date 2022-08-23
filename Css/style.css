@@ -238,18 +238,11 @@ input[type="submit"] {
 .corps-de-carte {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    font-size: 14px;
+    align-items: flex-start;
 }
 
-/*Titre dans les carte*/
-
-.titre-carte {
-    color: black;
-}
-
-.card-excerpt {
-    color: black;
+.corps-de-carte h3{
+    margin-bottom: -5px;
 }
 
 /****************aside*****************/
@@ -305,8 +298,10 @@ input[type="submit"] {
     width: 60%;
     flex-direction: column;
     justify-content: space-around;
-    height: 170px;
-    font-size: 14px;
+    height: 150px;
+}
+.corps_populaire h3{
+    margin-bottom: -10px;
 }
 
 .etoiles4 {
@@ -352,6 +347,9 @@ input[type="submit"] {
     border-radius: 25px;
     width: 20%;
     margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .grande_photo {
@@ -372,17 +370,19 @@ input[type="submit"] {
 }
 
 .moyenne_carte {
-    text-align: start;
     box-shadow: 5px 5px 5px 5px #F2F2F2;
     border: 1px solid #F2F2F2;
     border-radius: 25px;
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 /*petite carte*/
 
 .petite-img {
-    height: 100px;
+    height: 120px;
     width: 100%;
     border-radius: 25px 25px 0px 0px;
     object-fit: cover;
@@ -394,6 +394,9 @@ input[type="submit"] {
     border-radius: 25px;
     text-align: start;
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 /*footer*/
@@ -436,7 +439,6 @@ footer {
     }
 
     .btn_navigation {
-        border: red 1px yellow;
         width: 100%;
     }
 
@@ -566,10 +568,15 @@ footer {
         border: 1px solid #F2F2F2;
         flex-direction: column;
     }
-   .corps-de-carte{
-    height: 100px;
-    justify-content: flex-start;
+    .corps-de-carte{
+    height: 110px;
+    justify-items: flex-start;
    }
+
+   .corps-de-carte h3{
+    margin-bottom: -5px;
+   }
+
    .titre-carte{
     height: 30px;
    }
