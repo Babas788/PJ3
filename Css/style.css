@@ -140,15 +140,23 @@ input[type="submit"] {
 
 .bloc_filtres{
     display: flex;
-    justify-content: space-around;
-    padding: 20px;
-    width: 70%;
     align-items: center;
     flex-wrap: wrap;
 }
 
 .bloc_filtres h4{
-    margin: 0px 10px 0px 10px;
+    margin: 0px 30px 0px 50px;
+}
+.item_filtre span{
+    font-weight: 550;
+    margin: 3px;
+}
+
+.item_filtre{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    flex-wrap: wrap;
 }
 
 .filtre {
@@ -218,7 +226,7 @@ input[type="submit"] {
 
 .carte{
     padding: 6px;
-    width: 28%;
+    width: 30%;
     background-color: white;
     border-radius: 25px;
     display: flex;
@@ -307,29 +315,27 @@ input[type="submit"] {
 .act{
     margin-left: 50px;
 }
-.carte_marseille{
-    display: flex;
-    border-radius: 25px;
-}
+
 
 .activite_carte{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 20px;
 }
-.colone2{
+.colone{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin: 0px 20px 0px 25px;
-    width: 45%;
+    width: 20%;
 }
+
 .carte_marseille{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin: 0px 30px 0px 25px;
     box-shadow: 1px 7px 25px -6px lightgrey;
+    border-radius: 25px;
+    width: 25%;
 }
 .carte_marseille2{
     display: flex;
@@ -440,20 +446,19 @@ footer {
     }
 
     /*filtres*/
-
- 
+    
     .bloc_filtres{
-        width: 100%;
-        display: flex;
-        padding: 0;
-        align-items: flex-start;
         flex-direction: column;
-        margin-left: 5px;
+    }
+ 
+    .item_filtre{
+        width: 100%;
     }
 
     .filtre{
-        margin: 5px 0px 5px 5px;
+        margin-bottom: 10px;
     }
+
     
     .information{
         margin: 0;
@@ -514,14 +519,18 @@ footer {
     .activite_carte {
         flex-direction: column;
         align-items: center;
+        justify-content: space-around;
     }
 
-    .colone2 {
+    .colone {
         width: 100%;
     }
 
     /*cartes activités*/
-
+    
+    .activites h2{
+        margin: 0;
+    }
     .carte_marseille {
         width: 100%;
         margin: 20px 0px 20px 0px;
