@@ -149,7 +149,7 @@ input[type="submit"] {
 }
 .item_filtre span{
     font-weight: 550;
-    margin: 3px;
+    margin: 5px;
 }
 
 .item_filtre{
@@ -209,7 +209,7 @@ input[type="submit"] {
 }
 
 .logement {
-    width: 63%;
+    width: 65%;
     background: #F2F2F2;
     border-radius: 25px;
     padding: 20px;
@@ -226,7 +226,7 @@ input[type="submit"] {
 
 .carte{
     padding: 6px;
-    width: 30%;
+    width: 28%;
     background-color: white;
     border-radius: 25px;
     display: flex;
@@ -250,7 +250,7 @@ input[type="submit"] {
 
 .proposition{
     background-color: #F2F2F2;
-    width: 28%;
+    width: 30%;
     border-radius: 25px;
     padding: 35px;
     display: flex;
