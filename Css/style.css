@@ -441,23 +441,20 @@ footer {
 
     /*filtres*/
 
-    .itemfiltres{
-        display: flex;
-        align-items: flex-start;
-        flex-direction: column;
-    }
-  
+ 
     .bloc_filtres{
         width: 100%;
-        height: 200px;
         display: flex;
+        padding: 0;
+        align-items: flex-start;
         flex-direction: column;
-        margin-left: 15px;
-    }
-    .filtre{
-        height: 45px;
+        margin-left: 5px;
     }
 
+    .filtre{
+        margin: 5px 0px 5px 5px;
+    }
+    
     .information{
         margin: 0;
     }
@@ -486,50 +483,33 @@ footer {
     .carte-populaire{
         margin: 20px 0px 20px 0px;
     }
-    .corps-de-carte-text{
-        margin-bottom: 70px;
-    }
+  
 
     /*logement*/
 
     .logement {
         flex-direction: column;
-        width: auto;
         background-color: white;
         border: none;
+        width: 100%;
     }
 
     .hotel1 {
         flex-direction: column;
         align-items: center;
+        width: 100%;
     }
 
     .carte {
-        width: 80%;
         box-shadow: 5px 5px 15px 2px #F2F2F2;
         border: 1px solid #F2F2F2;
         flex-direction: column;
+        width: 100%;
+        margin-left: 0;
     }
 
-    .corps-de-carte{
-    height: 110px;
-    justify-items: flex-start;
-   }
-
-   .corps-de-carte h3{
-    margin-bottom: -5px;
-   }
-
-   .titre-carte{
-    height: 30px;
-   }
 
     /*activités*/
-
-    .activites {
-        height: auto;
-        margin-top: 300px
-    }
 
     .activite_carte {
         flex-direction: column;
@@ -537,29 +517,28 @@ footer {
     }
 
     .colone2 {
-        width: 80%;
+        width: 100%;
     }
 
     /*cartes activités*/
 
-    .grande_carte {
-        width: 80%;
-        margin-top: 15px;
-        margin-bottom: 15px;
+    .carte_marseille {
+        width: 100%;
+        margin: 20px 0px 20px 0px;
+    }
+    .carte_marseille2 {
+        width: 100%;
+        margin: 20px 0px 20px 0px;
     }
    
     .grande_photo {
         height: 175px;
     }
-    .moyenne_carte{
-        margin-bottom: 15px;
-    }
+
     .moyenne_photo{
         height: 175px;
     }
-    .petitecarte {
-        margin-bottom: 15px;
-    }
+
     .petite-img {
         height: 175px;
     }
