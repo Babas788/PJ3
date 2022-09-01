@@ -254,7 +254,7 @@ input[type="submit"] {
     background-color: #F2F2F2;
     width: 25%;
     border-radius: 25px;
-    padding: 35px;
+    padding: 25px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
