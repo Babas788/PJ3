@@ -252,7 +252,7 @@ input[type="submit"] {
 
 .proposition{
     background-color: #F2F2F2;
-    width: 30%;
+    width: 25%;
     border-radius: 25px;
     padding: 35px;
     display: flex;
@@ -345,6 +345,7 @@ input[type="submit"] {
     justify-content: space-between;
     border-radius: 25px;
     box-shadow: 1px 7px 25px -6px lightgrey;
+    width: 100%;
 }
 
 .grande_photo{
@@ -365,6 +366,7 @@ input[type="submit"] {
     object-fit: cover;
     border-radius: 25px 25px 0px 0px;
 }
+
 
 /*footer*/
 
