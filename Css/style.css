@@ -238,6 +238,10 @@ input[type="submit"] {
     box-shadow: 1px 7px 25px -6px lightgrey;
 }
 
+.carte:hover{
+    box-shadow: 1px 7px 25px -6px #0065FC;
+}
+
 /*photo des cartes logements*/
 
 .photo {
