@@ -385,6 +385,18 @@ footer {
 
 /*version mobile - Tablette*/
 
+@media screen and ( min-width: 768px) and (max-width: 1255px) {
+    .proposition{
+        width: 30%; 
+        padding: 15px;
+    }
+
+    .photo-populaire{
+        height: 165px;
+    }
+    
+}
+
 @media screen and (max-width: 768px) {
 
     /*head*/
