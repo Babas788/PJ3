@@ -448,7 +448,7 @@ footer {
     /*packshot*/
 
     /*titre*/
-
+    
     .titre_packshot{
         display: flex;
         flex-direction: column;
@@ -488,18 +488,21 @@ footer {
     .bloc_filtres{
         display: flex;
         flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
     }
 
     .bloc_filtres h4{
-        margin: 0;
+        margin-left: 10px;
     }
-
+    
     .item_filtre{
-        width: 100%;
+        width: 80%;
+        justify-content: flex-start;
     }
 
     .filtre{
-        margin-bottom: 10px;
+        margin: 10px;
     }
 
     
