@@ -385,7 +385,7 @@ footer {
 
 /*version mobile - Tablette*/
 
-@media screen and ( min-width: 768px) and (max-width: 995px) {
+@media screen and ( min-width: 769px) and (max-width: 995px) {
 
     .proposition{
         width: 30%; 
